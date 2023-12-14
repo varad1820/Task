@@ -2,5 +2,6 @@
 
 float divi(float a, float b)
 {
-    return a/b;
+    float r=a/b;
+    return r;
 }
