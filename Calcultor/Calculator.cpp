@@ -3,6 +3,8 @@
 #include"lib/Division/Div.h"
 #include"lib/Multipication/Mul.h"
 #include"lib/Subraction/Sub.h"
+#include"lib/Bool/Boolean.h"
+
 
 
 float Calculator::add(float x,float y)
@@ -23,4 +25,9 @@ float Calculator::multiply(float x,float y)
 float Calculator::divide(float x,float y)
 {
     return divi(x,y);
+}
+
+bool Calculator::boolean(float a, float b)
+{
+    return BoolCheck(a,b);
 }

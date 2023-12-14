@@ -11,6 +11,7 @@ public:
     float subtract(float x,float y);
     float multiply(float x,float y);
     float divide(float x,float y);
+    bool boolean(float a,float b);
 
     ~Calculator() {}
 };
