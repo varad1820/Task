@@ -13,6 +13,9 @@ public:
     float divide(float x,float y);
     bool boolean(float a,float b);
 
+
+    
+
     ~Calculator() {}
 };
 
