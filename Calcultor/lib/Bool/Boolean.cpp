@@ -1,4 +1,4 @@
-#include "Mod.h"
+#include "Boolean.h"
 #include<iostream>
 
 bool BoolCheck(float a, float b)

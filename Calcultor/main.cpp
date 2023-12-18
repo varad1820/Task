@@ -48,6 +48,10 @@ int main() {
             std::cout << "Invalid option!\n";
             break;
     }
+    std::cout<<C.CalculatorAll(2,4,'+')<<std::endl;
+    std::cout<<C.CalculatorAll(2,4,'-')<<std::endl;
+    std::cout<<C.CalculatorAll(2,4,'*')<<std::endl;
+    std::cout<<C.CalculatorAll(2,4,'/')<<std::endl;
 
     return 0;
 }

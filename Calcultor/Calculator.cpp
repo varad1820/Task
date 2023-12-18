@@ -31,3 +31,20 @@ bool Calculator::boolean(float a, float b)
 {
     return BoolCheck(a,b);
 }
+
+float Calculator::CalculatorAll(float x, float y, char operation )
+{
+    switch (operation)
+    {
+    case '+':
+        return Add(x,y);
+    case '-':
+        return sub(x,y) ;
+    case '*':
+        return multi(x,y);
+    case '/':
+        return divi(x,y);
+    default:
+        throw std::invalid_argument("Invalid operation");
+    }
+}

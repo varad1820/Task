@@ -7,6 +7,7 @@ cc_library(
         "//lib/Division:Divi",
         "//lib/Multipication:Multi",
         "//lib/Subraction:Sub",
+        "//lib/Bool:Bool",
     ],
     visibility = ["//visibility:public"],
 )
