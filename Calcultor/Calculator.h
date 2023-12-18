@@ -17,6 +17,9 @@ public:
     
     float CalculatorAll( float x,float y,char operation);
 
+
+    
+
     ~Calculator() {}
 };
 

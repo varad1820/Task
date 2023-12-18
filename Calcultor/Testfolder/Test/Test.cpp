@@ -5,6 +5,10 @@
 #include"lib/Subraction/Sub.h"
 #include"Calculator.h"
 
+<<<<<<< HEAD:Calcultor/Testfolder/Test/Test.cpp
+=======
+
+>>>>>>> 4a53594162e742498db783bcb5046bf8f9085c0d:Testfolder/Test/Test.cpp
 TEST(CalculatorTest, Add) {
     EXPECT_EQ(Add(2, 3), 5);
 }
@@ -20,6 +24,7 @@ TEST(CalculatorTest, Multiply) {
 TEST(CalculatorTest, Divide) {
     EXPECT_EQ(divi(6, 3), 2);
     // EXPECT_EQ(calc.divide(5, 0), 0); // Test division by zero
+<<<<<<< HEAD:Calcultor/Testfolder/Test/Test.cpp
 }
 
 
@@ -39,4 +44,6 @@ TEST(NewFunction , MulNum){
 TEST(NewFunction , DivNum){
     Calculator C;
     EXPECT_EQ(C.CalculatorAll(2,4,'/'),0.5);
+=======
+>>>>>>> 4a53594162e742498db783bcb5046bf8f9085c0d:Testfolder/Test/Test.cpp
 }
